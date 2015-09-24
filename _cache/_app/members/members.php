@@ -1,1 +1,0 @@
-a:1:{s:6:"netnak";a:8:{s:10:"first_name";s:6:"Netnak";s:9:"last_name";s:9:"Developer";s:5:"roles";a:1:{i:0;s:5:"admin";}s:5:"email";s:18:"admin@netnak.co.uk";s:8:"password";s:9:"ambit5188";s:5:"_path";s:64:"C:/Users/Geoffrey/Desktop/base_project/_config/users/netnak.yaml";s:9:"biography";s:4:"true";s:13:"biography_raw";s:4:"true";}}
