@@ -14,18 +14,20 @@
 	</head>
 	<body id="top">
 		<header>
-			<span>Company</span>
+			<a href="/" title="Home">Company Ltd</a>
 			<nav>
-				<a href="/">Home</a>
-				<a href="/about">About</a>
-				<a href="/contact">Contact</a>
+				<ul class="tabs">
+					{{ nav from="/" max_depth="2" }}
+						<li class="tabs__item"><a class="tabs__link {{ if is_current }}current{{ /if }}" href="{{ url }}" title="{{ title }}">{{ title }}</a>
+					{{ /nav }}
+				</ul>
 			</nav>
 		</header>
 		
 		{{ layout_content }}
 		
 		<footer>
-			&copy; {{ year }} Company
+			&copy; {{ current_date format="Y" }} Company Ltd
 		</footer>
 		{{ location:start_maps smart_include="true" }}
 	</body>
